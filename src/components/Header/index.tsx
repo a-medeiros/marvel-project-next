@@ -1,10 +1,21 @@
-import { Container } from './styles';
+import Link from 'next/link';
+import { Container, ALink, LinksSection } from './styles';
 
 export default function Header() {
   return (
     <Container>
-      <li>Personagens</li>
-      <li>HQs</li>
+      <LinksSection>
+        <li>
+          <Link href="/">
+            <ALink>Personagens</ALink>
+          </Link>
+        </li>
+        <li>
+          <Link href="/#">
+            <ALink>HQs</ALink>
+          </Link>
+        </li>
+      </LinksSection>
     </Container>
   );
 }

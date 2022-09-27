@@ -2,13 +2,13 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   min-height: 100vh;
-  background-color: #f1f1f1;
+  background-color: #fafafa;
 `;
 
 export const Section = styled.section`
   display: flex;
   justify-content: center;
-  padding: 50px 0px;
+  padding: 100px 0px 50px;
 `;
 
 export const CharactersContainer = styled.div`
