@@ -11,7 +11,7 @@ export default function Header() {
           </Link>
         </li>
         <li>
-          <Link href="/#">
+          <Link href="/hqs">
             <ALink>HQs</ALink>
           </Link>
         </li>

@@ -1,6 +1,6 @@
 import Header from '../../components/Header';
 import Item from '../../components/Item';
-import { CharactersContainer, Container, Section } from './styles';
+import { ItemsContainer, Container, Section } from './styles';
 import { Character } from '../../utils/types';
 
 type Props = {
@@ -12,7 +12,7 @@ export default function Home({ characters }: Props) {
     <Container>
       <Header />
       <Section>
-        <CharactersContainer>
+        <ItemsContainer>
           {characters?.map(character => (
             <Item
               key={character.id}
@@ -20,7 +20,7 @@ export default function Home({ characters }: Props) {
               image={`${character.thumbnail.path}.${character.thumbnail.extension}`}
             />
           ))}
-        </CharactersContainer>
+        </ItemsContainer>
       </Section>
     </Container>
   );

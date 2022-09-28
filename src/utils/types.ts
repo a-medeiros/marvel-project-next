@@ -8,3 +8,9 @@ export type Character = {
   name: string;
   thumbnail: Thumbnail;
 };
+
+export type Comic = {
+  id: string;
+  title: string;
+  thumbnail: Thumbnail;
+};
