@@ -16,7 +16,7 @@ export default async function Index() {
 
   return (
     <div>
-        <h1 className='text-red-500'>Hahaha</h1>
+        <h1 className='text-red-500 p-10'>Hahaha</h1>
       {/* <Home characters={characters} /> */}
     </div>
   );
